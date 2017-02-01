@@ -35,7 +35,7 @@ public class SchoolCalendar extends AppCompatActivity {
 
         //Set an event for Teachers' Professional Day 2016 which is 21st of October
 
-        Event ev1 = new Event(Color.RED, 1477040400000L, "Teachers' Professional Day");
+        Event ev1 = new Event(Color.RED, 1487322000000L, "Family Day");
         compactCalendar.addEvent(ev1);
 
         compactCalendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
@@ -43,8 +43,8 @@ public class SchoolCalendar extends AppCompatActivity {
             public void onDayClick(Date dateClicked) {
                 Context context = getApplicationContext();
 
-                if (dateClicked.toString().compareTo("Fri Oct 21 00:00:00 GMT+09:00 2016") == 0) {
-                    Toast.makeText(context, "Teachers' Professional Day", Toast.LENGTH_SHORT).show();
+                if (dateClicked.toString().compareTo("Fri Feb 17 00:00:00 GMT+09:00 2017") == 0) {
+                    Toast.makeText(context, "Family Day", Toast.LENGTH_SHORT).show();
                 }
                 else {
                     Toast.makeText(context, "No Events Planned for that day", Toast.LENGTH_SHORT).show();
