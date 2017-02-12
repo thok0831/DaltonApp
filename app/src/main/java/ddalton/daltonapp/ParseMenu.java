@@ -16,7 +16,7 @@ public class ParseMenu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.content_lunch_menu);
+        setContentView(R.layout.activity_parse_menu);
 
         texx=(TextView)findViewById(R.id.tex1);
 

@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SchoolCalendar" />
-        <activity android:name=".ParseMenu" />
+        <activity android:name=".SchoolNews" />
+        <activity android:name=".ParseMenu"></activity>
     </application>
 
 </manifest>

@@ -82,9 +82,12 @@ public class LunchMenu extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_lunchmenu) {
+                Intent intent = new Intent(this, ParseMenu.class);
+                startActivity(intent);
             // Handle the camera action
         } else if (id == R.id.nav_schoolnews) {
-
+                Intent intent = new Intent(this, SchoolNews.class);
+                startActivity(intent);
         } else if (id == R.id.nav_schoolcalendar) {
                 Intent intent = new Intent(this, SchoolCalendar.class);
                 startActivity(intent);
