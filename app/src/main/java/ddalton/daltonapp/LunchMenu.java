@@ -30,7 +30,7 @@ public class LunchMenu extends AppCompatActivity {
             System.out.println("parsing");
             try {
                 Document doc = Jsoup.connect("http://daltonschool.kr/homeeng/04schoollife/040203schoollife.html").get();
-                words=doc.select("table.cafeteria tbody tr td").eq(1).text();
+                words=doc.select("table.cafeteria tbody tr td").eq(3).text();
             }catch(Exception e){e.printStackTrace();}
             return null;
         }

@@ -4,15 +4,15 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_lunchmenu"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ricebowl_48"
             android:title="Lunch Menu" />
         <item
             android:id="@+id/nav_schoolnews"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/news_48"
             android:title="School News" />
         <item
             android:id="@+id/nav_schoolcalendar"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/calendar31_48"
             android:title="School Calendar"/>
         android:onClick="launchcalendar" />
         <item
@@ -25,7 +25,7 @@
             android:title="D-Day Counter" />
         <item
             android:id="@+id/nav_notepad"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/note_48"
             android:title="Notepad" />
     </group>
 
