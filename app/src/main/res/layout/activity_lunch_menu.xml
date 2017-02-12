@@ -12,16 +12,9 @@
     android:orientation="vertical">
 
     <TextView
-        android:text="Parsed Text"
+        android:text="Lunch Menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/tex1"
-        android:layout_weight="0.38" />
-
-    <Button
-        android:text="Parse"
-        android:layout_width="136dp"
-        android:layout_height="62dp"
-        android:id="@+id/but1" />
+        android:id="@+id/LunchMenuText"/>
 
 </LinearLayout>
