@@ -24,7 +24,7 @@ public class SchoolCalendar extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_schoolcalendar);
+        setContentView(R.layout.activity_school_calendar);
 
 
         final ActionBar actionBar = getSupportActionBar();
