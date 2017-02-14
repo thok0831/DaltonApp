@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".SchoolCalendar" />
         <activity android:name=".SchoolNews" />
-        <activity android:name=".LunchMenu"></activity>
+        <activity android:name=".CafeteriaMenu"></activity>
     </application>
 
 </manifest>

@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_lunchmenu) {
-                Intent intent = new Intent(this, LunchMenu.class);
+                Intent intent = new Intent(this, CafeteriaMenu.class);
                 startActivity(intent);
             // Handle the camera action
         } else if (id == R.id.nav_schoolnews) {

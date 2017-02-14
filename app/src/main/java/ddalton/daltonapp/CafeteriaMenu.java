@@ -12,7 +12,7 @@ import org.jsoup.nodes.Document;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-public class LunchMenu extends AppCompatActivity {
+public class CafeteriaMenu extends AppCompatActivity {
     TextView DisplayMenu;
 
     @Override
@@ -22,7 +22,7 @@ public class LunchMenu extends AppCompatActivity {
         actionBar.setTitle("Cafeteria Menu");
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_lunch_menu);
+        setContentView(R.layout.activity_cafeteria_menu);
 
         DisplayMenu=(TextView)findViewById(R.id.LunchMenuText);
 
