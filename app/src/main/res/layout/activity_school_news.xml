@@ -26,11 +26,10 @@
 
             <TextView
                 android:text="Post Title 0"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title0"/>
+                android:id="@+id/title0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -40,7 +39,8 @@
                 android:text="Post Content 0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content0"/>
+                android:id="@+id/content0"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -48,11 +48,10 @@
 
             <TextView
                 android:text="Post Title 1"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title1"/>
+                android:id="@+id/title1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -62,7 +61,8 @@
                 android:text="Post Content 1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content1"/>
+                android:id="@+id/content1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -70,11 +70,10 @@
 
             <TextView
                 android:text="Post Title 2"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title2"/>
+                android:id="@+id/title2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -84,7 +83,8 @@
                 android:text="Post Content 2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content2"/>
+                android:id="@+id/content2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -92,11 +92,10 @@
 
             <TextView
                 android:text="Post Title 3"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title3"/>
+                android:id="@+id/title3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -106,7 +105,8 @@
                 android:text="Post Content 3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content3"/>
+                android:id="@+id/content3"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -114,11 +114,10 @@
 
             <TextView
                 android:text="Post Title 4"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title4"/>
+                android:id="@+id/title4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -128,7 +127,8 @@
                 android:text="Post Content 4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content4"/>
+                android:id="@+id/content4"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -136,11 +136,10 @@
 
             <TextView
                 android:text="Post Title 5"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title5"/>
+                android:id="@+id/title5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -150,7 +149,8 @@
                 android:text="Post Content 5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content5"/>
+                android:id="@+id/content5"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -158,11 +158,10 @@
 
             <TextView
                 android:text="Post Title 6"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title6"/>
+                android:id="@+id/title6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -172,7 +171,8 @@
                 android:text="Post Content 6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content6"/>
+                android:id="@+id/content6"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -180,11 +180,10 @@
 
             <TextView
                 android:text="Post Title 7"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title7"/>
+                android:id="@+id/title7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -194,7 +193,8 @@
                 android:text="Post Content 7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content7"/>
+                android:id="@+id/content7"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -202,11 +202,10 @@
 
             <TextView
                 android:text="Post Title 8"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title8"/>
+                android:id="@+id/title8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -216,7 +215,8 @@
                 android:text="Post Content 8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content8"/>
+                android:id="@+id/content8"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
@@ -224,11 +224,10 @@
 
             <TextView
                 android:text="Post Title 9"
-                android:textSize="20sp"
-                android:textStyle="bold"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/title9"/>
+                android:id="@+id/title9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
             <Space
                 android:layout_width="match_parent"
@@ -238,7 +237,8 @@
                 android:text="Post Content 9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/content9"/>
+                android:id="@+id/content9"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <Space
                 android:layout_width="match_parent"
