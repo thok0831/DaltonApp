@@ -15,16 +15,16 @@
             android:icon="@drawable/calendar31_48"
             android:title="School Calendar"/>
         <item
-            android:id="@+id/nav_timetable"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Time Table" />
+            android:id="@+id/nav_notepad"
+            android:icon="@drawable/note_48"
+            android:title="Notepad" />
         <item
             android:id="@+id/nav_ddaycounter"
             android:icon="@drawable/ic_menu_manage"
             android:title="D-Day Counter" />
         <item
-            android:id="@+id/nav_notepad"
-            android:icon="@drawable/note_48"
-            android:title="Notepad" />
+            android:id="@+id/nav_timer"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Timer" />
     </group>
 </menu>

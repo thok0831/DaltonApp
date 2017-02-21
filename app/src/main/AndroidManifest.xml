@@ -22,7 +22,12 @@
         </activity>
         <activity android:name=".SchoolCalendar" />
         <activity android:name=".SchoolNews" />
-        <activity android:name=".CafeteriaMenu"></activity>
+        <activity android:name=".CafeteriaMenu" />
+        <activity android:name=".DDayCounter" />
+        <activity android:name=".Timer" />
+        <activity android:name=".Notepad"/>
+        <activity android:name=".ENote"/>
+        <activity android:name=".NewNote"/>
     </application>
 
 </manifest>
